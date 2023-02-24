@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headContainer {
+  display: flex;
+  margin-top: 40px;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.ipl-head {
+  color: white;
+  font-family: Bree Serif;
+}
+
+.teamCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.unorderedListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
